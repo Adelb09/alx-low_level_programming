@@ -38,9 +38,6 @@ int main(void)
 
 
 
-Adel Berhili
-where is main.c located here
-The script assumes that the main.c file is located in the current directory where the script is being executed.
 
 
 
