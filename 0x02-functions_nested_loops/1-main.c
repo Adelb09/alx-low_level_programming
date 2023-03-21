@@ -1,13 +1,12 @@
 #include "main.h"
 
 /**
- * main - entry point
+ * main - Entry point
  *
- * Return: Always 0 (Success)
+ * Return: Always 0
  */
 int main(void)
 {
 print_alphabet();
-
 return (0);
 }
