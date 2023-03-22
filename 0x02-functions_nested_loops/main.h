@@ -16,5 +16,7 @@ void jack_bauer(void);
 int _putchar(char c);
 void times_table(void);
 int _putchar(char c);
+int add(int, int);
+int _putchar(char);
 
 #endif /* MAIN_H */
