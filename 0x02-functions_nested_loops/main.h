@@ -14,5 +14,7 @@ int _putchar(char c);
 int print_last_digit(int n);
 void jack_bauer(void);
 int _putchar(char c);
+void times_table(void);
+int _putchar(char c);
 
 #endif /* MAIN_H */
