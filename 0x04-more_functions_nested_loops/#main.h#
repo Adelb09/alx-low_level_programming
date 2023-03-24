@@ -41,7 +41,11 @@ void print_triangle(int size);
 #include <stdio.h>
 
 unsigned long int find_largest_prime(unsigned long int n);
+#ifndef MAIN_H
+#define MAIN_H
+
 int _putchar(char c);
 void print_number(int n);
 
+#endif /* MAIN_H */
 #endif /* MAIN_H */
