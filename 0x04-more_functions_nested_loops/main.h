@@ -38,4 +38,8 @@ int _putchar(char c);
 int _putchar(char c);
 void print_triangle(int size);
 
+#include <stdio.h>
+
+unsigned long int find_largest_prime(unsigned long int n);
+
 #endif /* MAIN_H */
