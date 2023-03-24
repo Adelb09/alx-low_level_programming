@@ -1,28 +1,28 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- * find_largest_prime - Finds and returns the largest prime factor
- *                      of a given number.
- * @n: The number to find the largest prime factor of.
+ * main - finds and prints the largest prime factor
+ * of the number 612852475143
  *
- * Return: The largest prime factor of @n.
+ * Return: Always 0
  */
-unsigned long int find_largest_prime(unsigned long int n)
-{
-unsigned long int largest = 2;
 
-while (n != 1)
+int main(void)
 {
-if (n % largest == 0)
+unsigned long n = 612852475143;
+unsigned long i;
+
+for (i = 2; i <= n; i++)
 {
-n = n / largest;
-if (largest > 2)
-largest = 2;
-}
-else
+if (n % i == 0)
 {
-largest++;
+printf("%lu", i);
+n /= i;
+i--;
 }
 }
-return (largest);
+
+putchar('\n');
+return (0);
 }
