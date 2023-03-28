@@ -26,5 +26,7 @@ char *_strcpy(char *dest, char *src);
 int _putchar(char c);
 int _putchar(char c);
 int _atoi(char *s);
+int _putchar(char c);
+void generate_password(char *password);
 
 #endif /* MAIN_H */
