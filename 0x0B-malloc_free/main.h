@@ -14,5 +14,12 @@ char *str_concat(char *s1, char *s2);
 unsigned int _strspn(char *s, char *accept);
 char *_strpbrk(char *s, char *accept);
 int _putchar(char c);
+/* Included Libraries*/
+#include <stdio.h>
+#include <stdlib.h>
+
+/* Function Prototypes*/
+int _putchar(char c);
+int **alloc_grid(int width, int height);
 
 #endif /* MAIN_H */
