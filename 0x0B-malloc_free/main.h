@@ -28,5 +28,9 @@ void free_grid(int **grid, int height);
 int _putchar(char c);
 char *argstostr(int ac, char **av);
 int _putchar(char c);
+#include <stdlib.h>
+
+int count_words(char *str);
+char **strtow(char *str);
 
 #endif /* MAIN_H */
